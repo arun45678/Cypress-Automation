@@ -1,0 +1,166 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecommerce-product-demo;i-login-and-verify-the-cart",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "I login and verify the cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on landing page",
+            "match": {
+              "location": "cypress/integration/examples/BDD Framework/ecom/eComStepDef.cy.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 926000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login to the application",
+            "match": {
+              "location": "cypress/integration/examples/BDD Framework/ecom/eComStepDef.cy.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I filter product and add product into cart",
+            "match": {
+              "location": "cypress/integration/examples/BDD Framework/ecom/eComStepDef.cy.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Moved on cart page and verify the item on cart details page",
+            "match": {
+              "location": "cypress/integration/examples/BDD Framework/ecom/eComStepDef.cy.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ecommerce-product-demo;login-and-checking-the-cart-details-page",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Login and checking the cart details page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on landing page",
+            "match": {
+              "location": "cypress/integration/examples/BDD Framework/ecom/eComStepDef.cy.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "arun.khatri11193@gmail.com",
+                      "Shrey@12345"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I login to the application portal",
+            "match": {
+              "location": "cypress/integration/examples/BDD Framework/ecom/eComStepDef.cy.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I filter product and add product into cart",
+            "match": {
+              "location": "cypress/integration/examples/BDD Framework/ecom/eComStepDef.cy.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Moved on cart page and verify the item on cart details page",
+            "match": {
+              "location": "cypress/integration/examples/BDD Framework/ecom/eComStepDef.cy.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 201000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecommerce-product-demo",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ecommerce Product Demo",
+    "tags": [],
+    "uri": "cypress\\integration\\examples\\BDD Framework\\ecom.feature"
+  }
+]

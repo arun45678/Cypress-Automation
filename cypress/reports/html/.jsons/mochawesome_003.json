@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 2,
+    "failures": -1,
+    "start": "2024-11-30T10:09:36.004Z",
+    "end": "2024-11-30T10:09:36.052Z",
+    "duration": 48,
+    "testsRegistered": 2,
+    "passPercent": null,
+    "pendingPercent": 100,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "936f795a-b5f1-490a-aae9-b920219d3ef5",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\BDD Framework\\ecom.feature",
+      "file": "cypress\\integration\\examples\\BDD Framework\\ecom.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2a4e4e58-fd95-40e7-b9b0-f0179e59a849",
+          "title": "Ecommerce Product Demo",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "I login and verify the cart",
+              "fullTitle": "Ecommerce Product Demo I login and verify the cart",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "64337e6d-0655-4903-8020-2ea039fd176f",
+              "parentUUID": "2a4e4e58-fd95-40e7-b9b0-f0179e59a849",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login and checking the cart details page",
+              "fullTitle": "Ecommerce Product Demo Login and checking the cart details page",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "2b4d42b3-309d-460e-99ce-b98571ea29e4",
+              "parentUUID": "2a4e4e58-fd95-40e7-b9b0-f0179e59a849",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [
+            "64337e6d-0655-4903-8020-2ea039fd176f",
+            "2b4d42b3-309d-460e-99ce-b98571ea29e4"
+          ],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
