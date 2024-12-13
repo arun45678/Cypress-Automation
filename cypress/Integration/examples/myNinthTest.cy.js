@@ -63,7 +63,7 @@ describe('Asite e2e test', () => {
 
     // Click the button to create a form
     cy.get('.btn-create-form > span',{timeout: 30000 }).click();
-    cy.wait(5000);
+    cy.wait(3000);
 
     // Interact with the second iframe (#createFormIframe)
     cy.get("iframe#createFormIframe", { timeout: 50000 })
